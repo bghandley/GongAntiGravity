@@ -1,12 +1,14 @@
-# Gong Clone - Sales Call Analyzer
+# Bridal Beauty Consultation Coach - Rachael Peffer
 
-A Streamlit application that uses Google Gemini to analyze sales call transcripts and provide coaching feedback, similar to Gong.io.
+This Streamlit app analyzes bridal beauty consultation transcripts and delivers coaching feedback for artists, aligned with Rachael Peffer's brand.
+Unlike Gong, it uses a bridal consult lens: aesthetic alignment, package clarity, hesitation handling, decision safety, and next steps.
+Example usage: run `streamlit run app.py`, upload a transcript, and review the dashboard insights.
 
 ## Features
 - **Transcript Upload**: Supports `.txt`, `.vtt`, and `.srt` files.
-- **AI Analysis**: Uses Google Gemini (gemini-2.5-flash) to identify strengths, weaknesses, and coaching tips.
+- **AI Analysis**: Uses Google Gemini to identify strengths, improvements, and coaching tips for artists.
 - **Metrics**: Sentiment scoring, word counts, and estimated duration.
-- **Dashboard**: "Gong-style" interface for reviewing calls.
+- **Dashboard**: Review consultation flow, timeline moments, and coaching guidance.
 
 ## Setup
 
@@ -35,7 +37,7 @@ A Streamlit application that uses Google Gemini to analyze sales call transcript
 
 ## Deployment on Streamlit Cloud
 1. Push this code to GitHub.
-2. Login to [Streamlit Cloud](https://streamlit.io/cloud).
+2. Login to Streamlit Cloud.
 3. Connect your GitHub repo.
 4. In the "Advanced Settings" of the deployment, add your secrets:
    - `GOOGLE_API_KEY` = "your-api-key-here" (Optional, or users can enter it in the UI).
