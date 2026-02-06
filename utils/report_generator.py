@@ -3,7 +3,7 @@ from fpdf import FPDF
 class PDFReport(FPDF):
     def header(self):
         self.set_font('Helvetica', 'B', 15)
-        self.cell(0, 10, 'Sales Call Coaching Report', 0, 1, 'C')
+        self.cell(0, 10, 'Rachael Peffer Consultation Coaching Report', 0, 1, 'C')
         self.ln(5)
         
     def footer(self):
